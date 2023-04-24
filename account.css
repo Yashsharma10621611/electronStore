@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/Login-background.jpg);
+    background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #000000;
+  background-color: darkgray;
+}
+
+.container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#accountForm{
+    position: relative;
+    width: 400px;
+    height: 253px;
+    background: transparent;
+    border: 2px solid rgb(255 255 255);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: column;
+    margin: auto;
+}
+
+.names{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: medium;
+    text-align: center;
+    border: 2px solid white;
+}
+
+
